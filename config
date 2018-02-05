@@ -108,6 +108,7 @@ bindsym $mod+Shift+s sticky toggle
 
 # focus the child container
 #bindsym $mod+d focus child
+#for_window [class="NetBeans"] floating enable
 assign [class="Firefox"] $workspace1
 assign [class="Thunar"] $workspace2
 #set workspaces
@@ -212,4 +213,5 @@ bar {
 exec --no-startup-id volumeicon
 exec --no-startup-id nm-applet
 exec --no-startup-id compton -b 
+exec --no-startup-id blueman-applet
 exec start-pulseaudio-x11
