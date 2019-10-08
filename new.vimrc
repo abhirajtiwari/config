@@ -32,6 +32,10 @@ set shiftwidth=4
 set splitright
 set splitbelow
 
+set mouse=a
+set smartcase
+set ignorecase
+
 au BufNewFile,BufRead *.py
     \ set tabstop=4
     \ set softtabstop=4
